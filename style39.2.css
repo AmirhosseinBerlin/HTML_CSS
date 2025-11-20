@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(62, 62, 62);
+}
+#box{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 89, 89);
+    font-size: 12em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1; /*infinite, 1,2,3,...*/
+    animation-direction: normal; /*reverse, alternate-reverse, normal, alternate*/
+    animation-play-state: running; /*paused*/
+    animation-timing-function: cubic-bezier(0.89,-1.79, 0.43, 3.01);
+    animation-timing-function:ease-in-out; /*ease-in-out, linear*/
+}
+
+@keyframes slideLeft{
+    from{transform: translateX(300%);} /*to, from, 0%, 50%, 100%, 200%, -100%*/
+
+}

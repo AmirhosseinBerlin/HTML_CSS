@@ -1,0 +1,6 @@
+body{
+    margin: 0px;
+}
+img{
+    transform: translateX(100%) rotateZ(180deg) scaleX(2);
+}

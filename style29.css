@@ -1,0 +1,26 @@
+#container{
+    border: 2px solid;
+}
+
+/* #container p {
+    background-color: yellow; 
+    decendant combinater
+} */
+
+
+/* #container > p {
+    background-color: yellow; 
+    child combinater
+} */
+
+
+/* #container ~ p {
+    background-color: yellow; 
+    general sibling combinater
+} */
+
+
+#container + p {
+    background-color: yellow; 
+    /* adjacent sibling combinater */
+}

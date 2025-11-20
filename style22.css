@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+.box{
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    /* margin: 50px; */
+    margin: auto;
+}
+#box1{
+    background-color: rgb(250, 52, 52);
+    /* margin-top: 50px; */
+    /* margin: 50px; */
+    /* margin-left: auto; */
+    /* margin: auto; */
+    margin-bottom: 50px;
+}
+#box2{
+    background-color: rgb(52, 148, 243);
+}
+/* margins are spaces around elements */

@@ -1,0 +1,14 @@
+a:link{
+    color: rgb(249, 62, 62); /*لینک اجرا نمیشه کلا*/
+}
+a:hover{
+    color: rgb(108, 109, 110);
+    font-size: 1.1em;
+}
+a:active{
+    color: rgb(76, 112, 221);
+    font-size: 1.1em;
+}
+/* a:visited{
+    color: rgb(133, 148, 143);
+} */

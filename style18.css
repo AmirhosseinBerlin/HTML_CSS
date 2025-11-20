@@ -1,0 +1,18 @@
+@font-face{
+    src: url(files/Roboto-Italic.ttf);
+    font-family: Roboto-Italic;
+}
+@font-face{
+    src: url(files/Roboto-BlackItalic.ttf);
+    font-family: Roboto-BlackItalic;
+}
+h1{
+    font-family: Roboto-Italic,Verdana ,arial , Geneva, Tahoma, sans-serif;
+}
+p{
+    font-family: Roboto-BlackItalic,"lucida console",'Courier New';
+    font-size : 1em;
+    font-weight : bold;
+    font-style: italic;
+}
+/* fonts.google.com */

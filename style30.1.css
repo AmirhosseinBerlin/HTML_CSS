@@ -1,0 +1,13 @@
+/* li:hover{
+    background-color: rgb(244, 244, 94);
+}
+li:not(:hover){
+    background-color: rgb(226, 223, 223);
+} */
+ 
+li:nth-child(3n+1){
+    background-color: rgb(244, 244, 112);
+}
+
+/*داخل پرانتز اینها را می توانیم قرار دهیم:,1,2,3,4,5,6,7,8,9*/
+/*even, odd, 3n, 4n, 3n+1, 3n+2* / /* و همچنین اینهارا می توانیم در داخل پرانتز بگذاریم.*/
